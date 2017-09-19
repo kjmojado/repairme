@@ -1,0 +1,2 @@
+CREATE TABLE `regis_table`(`userID` int NOT NULL AUTO_INCREMENT, `Username` varchar(50) NOT NULL, `password` varchar(50) NOT NULL, `f_name` varchar(50) NOT NULL, `l_name` varchar(50) NOT NULL, `location` varchar(50) NOT NULL, `postal_code` varchar(50) NOT NULL, PRIMARY KEY (`userID`))CHARACTER SET utf8;
+CREATE TABLE `user`(`userID` int NOT NULL, `age` varchar(50) NULL, `sex` varchar(50) NULL, `state_city` varchar(50) NULL, PRIMARY KEY (`userID`))CHARACTER SET utf8;
